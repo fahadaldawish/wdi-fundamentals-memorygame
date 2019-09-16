@@ -1,0 +1,70 @@
+h1 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    padding: 10px;
+    margin: 10px;
+}
+
+p {
+    font-family: "Droid Serif", serif;
+    padding: 10px;
+    margin: 10px;
+}
+
+body {
+    text-align: center;
+}
+
+header{
+    background-color: #F15B31;
+    padding: 10px;
+    margin: 10px;
+}
+
+nav{
+    background-color: darkcyan;
+    padding: 10px;
+    margin: 10px;
+
+}
+a{
+    color: aliceblue;
+    border-bottom: 2px solid transparent;
+    text-decoration: none;
+    padding: 30px;
+}
+nav a:hover{
+    color: black;
+}
+a:hover{
+    color : white;
+}
+footer{
+    text-transform: uppercase;
+    padding: 0 20px 0 20px;
+    background-color: #0D2C40;
+    color: white;
+    font-size: 14px;
+    letter-spacing: .08em;
+    font-weight: 500;
+
+}
+.Copyright{
+    float: right;
+}
+.message{
+    float: left;
+}
+.name{
+    color: #F15B31;
+    font-weight: 700;
+
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    content: " ";
+    clear: both;
+    height: 0;
+    font-size: 0;
+}
